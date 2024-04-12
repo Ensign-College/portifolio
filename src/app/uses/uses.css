@@ -1,0 +1,31 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.navebar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.projectBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 1.5rem;
+  padding-left: 3rem;
+}
+.h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 77%;
+  padding-left: 3rem;
+}
+
+.footerBox {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+}

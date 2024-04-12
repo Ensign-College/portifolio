@@ -1,0 +1,65 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.navebar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: space-between;
+  width: 100vw;
+  gap: 20rem;
+}
+
+.description {
+  width: 50%;
+}
+
+.dpicture {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.imageStyle {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+}
+
+.aboutBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.aboutColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutDescription {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.links {
+  margin-left: 3rem;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.footerBox {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+}

@@ -1,0 +1,89 @@
+/* Container Styles */
+.work-widget {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin: 14px 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 420px;
+  row-gap: 12px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.work-widget h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Paragraph Styles */
+.work-widget p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* List Styles */
+.work-widget ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+/* Work Item Styles */
+.work-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  align-items: center;
+}
+
+/* Organization Logo Styles */
+.work-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Organization Name Styles */
+.work-item h3 {
+  flex-shrink: 1;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Work Item Content Styles */
+.work-item-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+/* Work Item Content Details Styles */
+.work-item-content-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Work Item Content Details Paragraph Styles */
+.work-item-content-details p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+/* Work Item Content Details Span Styles */
+.work-item-content-details span {
+  font-size: 14px;
+  color: #999;
+}
